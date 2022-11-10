@@ -1,0 +1,236 @@
+body {
+    background-color: white;
+    
+}
+.titulo {
+   font-family: 'Aktiv Grotesk';
+    font-weight: 700;
+    font-size: 76px;
+    line-height: 100px;
+    display: flex;
+    letter-spacing: -0.017em;
+    color: red;
+    padding-left: 60px;
+    padding-top: 30px;
+
+}
+
+h2 {
+    font-family: 'Aktiv Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    color: black;
+    line-height: 51px;
+    align-items: center;
+    padding-left: 180px;
+   padding-right: 180px;
+    padding-top: 30px;
+    position: relative;
+}
+
+h3 {
+    font-family: 'Aktiv Grotesk';
+    font-size: 20px;
+    padding-left: 180px;
+        color: black;
+}
+
+mark {
+    color: red;
+    background-color: inherit;
+    z-index: 2;
+}
+
+.material-icons {
+    color: red;
+   position: fixed;
+    left: 85%;
+    top: 10%;
+    background-color: inherit;
+    cursor: pointer;
+  }
+
+/*system*/ 
+
+
+.popup-trigger-system {
+    display: inline-block;
+    color: white;
+    background-color: inherit;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  
+  .popup-system {
+    display: none;
+  }
+  
+  .popup-trigger-system:hover .popup-system {
+    position: absolute;
+    left: calc(135% - 50px);
+    top: calc(20% - 50px);
+    display: inline-block;
+    height: 120px;
+    width: 290px;
+    background-color: black;
+      border-radius: 30px;
+  }
+  
+  .texto-1 {
+      color: white;
+      font-family: 'Aktiv Grotesk';
+      font-size: 20px;
+      line-height: 22pt;
+      padding: inherit;
+      padding-left: 5px;
+      align-items: center;    
+  }
+  
+  
+  .popup-trigger-controllable .texto-1 {
+      position: inline;
+  }
+
+    /*user*/ 
+
+
+.popup-trigger-user {
+    display: inline-block;
+    color: white;
+    background-color: inherit;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  
+  .popup-user {
+    display: none;
+  }
+  
+  .popup-trigger-user:hover .popup-user {
+    position: absolute;
+    left: calc(200% - 50px);
+    top: calc(-10% - 50px);
+    display: inline-block;
+    height: 160px;
+    width: 290px;
+    background-color: black;
+      border-radius: 30px;
+  }
+  
+  .texto-2 {
+      color: white;
+      font-family: 'Aktiv Grotesk';
+      font-size: 20px;
+      line-height: 22pt;
+      padding: inherit;
+      padding-left: 5px;
+      align-items: center;    
+  }
+  
+  
+  .popup-trigger-user .texto-2 {
+      position: inline;
+  }
+  
+
+  /*expression*/ 
+
+
+.popup-trigger-expression {
+    display: inline-block;
+    color: white;
+    background-color: inherit;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  
+  .popup-expression {
+    display: none;
+  }
+  
+  .popup-trigger-expression:hover .popup-expression {
+    position: absolute;
+    left: calc(135% - 50px);
+    top: calc(20% - 50px);
+    display: inline-block;
+    height: 120px;
+    width: 290px;
+    background-color: black;
+      border-radius: 30px;
+  }
+  
+  .texto-3 {
+      color: white;
+      font-family: 'Aktiv Grotesk';
+      font-size: 20px;
+      line-height: 22pt;
+      padding: inherit;
+      padding-left: 5px;
+      align-items: center;    
+  }
+  
+  
+  .popup-trigger-controllable .texto-1 {
+      position: inline;
+  }
+
+   /*matrix*/ 
+
+
+.popup-trigger-matrix {
+    display: inline-block;
+    color: white;
+    background-color: inherit;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  
+  .popup-matrix {
+    display: none;
+  }
+  
+  .popup-trigger-matrix:hover .popup-matrix {
+    position: absolute;
+    left: calc(160% - 50px);
+    top: calc(-10% - 50px);
+    display: inline-block;
+    height: 140px;
+    width: 290px;
+    background-color: black;
+      border-radius: 30px;
+  }
+  
+  .texto-4 {
+      color: white;
+      font-family: 'Aktiv Grotesk';
+      font-size: 20px;
+      line-height: 22pt;
+      padding: inherit;
+      padding-left: 5px;
+      align-items: center;    
+  }
+  
+  
+  .popup-trigger-matrix .texto-4 {
+      position: inline;
+  }
+
+  a {
+    font-family: 'Aktiv Grotesk';
+    text-decoration: none;
+    font-size: 25px;
+      cursor: pointer;
+      position: absolute;
+  }
+  
+  .previous {
+    background-color: none;
+    color: red;
+    left: 90%;
+      top: 10%;
+  }

@@ -1,0 +1,245 @@
+body {
+    background-color: white;
+    
+}
+.titulo {
+   font-family: 'Aktiv Grotesk';
+    font-weight: 700;
+    font-size: 76px;
+    line-height: 100px;
+    display: flex;
+    letter-spacing: -0.017em;
+    color: red;
+    padding-left: 60px;
+    padding-top: 30px;
+
+}
+
+h2 {
+    font-family: 'Aktiv Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    color: black;
+    line-height: 51px;
+    align-items: center;
+    padding-left: 180px;
+   padding-right: 180px;
+    padding-top: 30px;
+    position: relative;
+}
+
+h3 {
+    font-family: 'Aktiv Grotesk';
+    font-size: 20px;
+    padding-left: 180px;
+        color: black;
+}
+
+mark {
+    color: red;
+    background-color: inherit;
+    z-index: 2;
+}
+
+.material-icons {
+    color: red;
+   position: fixed;
+    left: 85%;
+    top: 10%;
+    background-color: inherit;
+    cursor: pointer;
+}
+
+/*materialize*/ 
+
+
+.popup-trigger-materialize {
+  display: inline-block;
+  color: white;
+  background-color: inherit;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.popup-materialize {
+  display: none;
+}
+
+.popup-trigger-materialize:hover .popup-materialize {
+  position: absolute;
+  left: calc(138% - 50px);
+  top: calc(40% - 50px);
+  display: inline-block;
+  height: 100px;
+  width: 290px;
+  background-color: black;
+    border-radius: 30px;
+}
+
+.texto-1 {
+    color: white;
+    font-family: 'Aktiv Grotesk';
+    font-size: 20px;
+    line-height: 22pt;
+    padding: inherit;
+    padding-left: 5px;
+    align-items: center;    
+}
+
+
+.popup-trigger-materialize .texto-1 {
+    position: inline;
+}
+
+
+
+/*augment*/ 
+
+
+.popup-trigger-augment {
+  display: inline-block;
+  color: white;
+  background-color: inherit;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.popup-augment {
+  display: none;
+}
+
+.popup-trigger-augment:hover .popup-augment {
+  position: absolute;
+  left: calc(148% - 50px);
+  top: calc(30% - 50px);
+  display: inline-block;
+  height: 120px;
+  width: 250px;
+  background-color: black;
+    border-radius: 30px;
+    z-index: 1;
+}
+
+.texto-2 {
+    color: white;
+    font-family: 'Aktiv Grotesk';
+    font-size: 20px;
+    line-height: 22pt;
+    padding: inherit;
+    padding-left: 5px;
+    align-items: center;    
+}
+
+
+.popup-trigger-augment .texto-2 {
+    position: inline;
+}
+
+/*human*/ 
+
+
+.popup-trigger-human {
+  display: inline-block;
+  color: white;
+  background-color: inherit;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.popup-human {
+  display: none;
+}
+
+.popup-trigger-human:hover .popup-human {
+  position: absolute;
+  left: calc(150% - 50px);
+  top: calc(-10% - 50px);
+  display: inline-block;
+  height: 150px;
+  width: 260px;
+  background-color: black;
+    border-radius: 30px;
+}
+
+.texto-3 {
+    color: white;
+    font-family: 'Aktiv Grotesk';
+    font-size: 20px;
+    line-height: 22pt;
+    padding: inherit;
+    padding-left: 5px;
+    align-items: center;    
+}
+
+
+.popup-trigger-problems .texto-3 {
+    position: inline;
+}
+
+/*owner*/ 
+
+
+.popup-trigger-owner {
+  display: inline-block;
+  color: white;
+  background-color: inherit;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.popup-owner {
+  display: none;
+}
+
+.popup-trigger-owner:hover .popup-owner {
+  position: absolute;
+  left: calc(153% - 50px);
+  top: calc(42% - 50px);
+  display: inline-block;
+  height: 100px;
+  width: 260px;
+  background-color: black;
+    border-radius: 30px;
+}
+
+.texto-4 {
+    color: white;
+    font-family: 'Aktiv Grotesk';
+    font-size: 20px;
+    line-height: 22pt;
+    padding: inherit;
+    padding-left: 5px;
+    align-items: center;    
+}
+
+
+.popup-trigger-owner .texto-4 {
+    position: inline;
+}
+
+a {
+  font-family: 'Aktiv Grotesk';
+  text-decoration: none;
+  font-size: 25px;
+    cursor: pointer;
+    position: absolute;
+}
+
+.previous {
+  background-color: none;
+  color: red;
+  left: 90%;
+    top: 10%;
+}
+.next {
+  background-color: none;
+  color: red;
+  left: 93%;
+    top: 10%;
+}
+

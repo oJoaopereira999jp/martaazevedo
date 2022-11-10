@@ -1,0 +1,191 @@
+.titulo {
+    position: absolute;
+    left: 36px;
+    top: 14px;
+    font-family: 'Aktiv Grotesk';
+    font-weight: 700;
+    font-size: 76px;
+    line-height: 100px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.017em;
+    color: #000000;
+}
+
+.intro {
+    position: absolute;
+    width: 1214px;
+    height: 252px;
+    left: 36px;
+    top: 180px;
+    font-family: 'Aktiv Grotesk';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.017em;
+    color: #000000;
+}
+
+
+
+a {
+    text-decoration: none;
+    text-align: center;
+    display:inline-block;
+    line-height: 100px;
+    color: black;
+     border: 7px solid #000000;
+    height: 100px;
+    width: 300px;
+    border-radius: 30px;
+    font-family: 'Aktiv Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    cursor: pointer;
+}
+
+
+
+a:hover {
+    color: white;
+    background-color: black;
+    transition-duration: 0.30s;}
+
+
+.internet-1{
+    position: absolute;
+    left: 1180px;
+    top: 760;
+}
+
+.internet-2{
+    position: absolute;
+    left: 810px;
+    top: 760;
+}
+
+.internet-3{
+    position: absolute;
+    left: 430px;
+    top: 760;
+}
+
+.internet-4{
+    position: absolute;
+    left: 40px;
+    top: 760;
+}
+
+.hidden-buttons-internet {
+    display: none;
+    margin-bottom: 13%;
+    margin-top: 3%;
+}
+
+.button-reveal-trigger-internet {
+    position: absolute;
+    width: 470px;
+    height: 110px;
+    left: 180px;
+    top: 560px;
+    border: 8px solid #000000;
+    border-radius: 39px;
+    font-family: 'Aktiv Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 110px;
+    padding: 20px
+    color #000000;
+    cursor: pointer;
+    text-align: center;
+    background-color: white;
+}
+
+.button-reveal-trigger-internet:hover {
+    color: white;
+    background-color: black;
+    transition-duration: 0.30s;
+    
+}
+
+.button-reveal-internet input {
+    display: none;
+}
+
+input:checked ~ .hidden-buttons-internet {
+    display: block;
+}
+
+
+.hidden-buttons-bias {
+    display: none;
+    margin-bottom: 13%;
+    margin-top: 3%;
+}
+
+.button-reveal-trigger-bias {
+    position: absolute;
+    width: 470px;
+    height: 110px;
+    left: 880px;
+    top: 560px;
+    border: 8px solid #000000;
+    border-radius: 39px;
+    font-family: 'Aktiv Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 110px;
+    padding: 20px
+    color #000000;
+    background-color: white;
+    cursor:pointer;
+    text-align:center;
+}
+
+.button-reveal-bias input {
+    display: none;
+}
+
+input:checked ~ .hidden-buttons-bias {
+    display: block;
+}
+
+.bias-1{
+    position: absolute;
+    left: 1180px;
+    top: 760;
+    line-height: normal;    
+}
+
+.bias-2{
+    position: absolute;
+    left: 810px;
+    top: 760;
+}
+
+.bias-3{
+    position: absolute;
+    left: 430px;
+    top: 760;
+}
+
+.bias-4{
+    position: absolute;
+    left: 40px;
+    top: 760;
+    line-height: normal;
+    
+}
+
+.button-reveal-trigger-bias:hover {
+    color: white;
+    background-color: black;
+    transition-duration: 0.30s;
+    
+}
+
